@@ -4,7 +4,7 @@ span {
 
 .container {
   border: 3px solid black;
-  width: 300px;
+  width: 380px;
   height: 300px;
   margin: auto;
   border-radius: 10px;
@@ -40,6 +40,7 @@ input {
   color: white;
   margin-right: 10px;
   font-size: 30px;
+  outline: none;
 }
 
 ::placeholder {
@@ -59,4 +60,9 @@ body {
   right: 0px;
   top: 0px;
   text-align: center;
+  padding: 8px;
+}
+
+.condition {
+  margin: inherit;
 }

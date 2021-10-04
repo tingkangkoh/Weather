@@ -40,6 +40,7 @@ let printData=function(data){
     icon.src=`http://openweathermap.org/img/wn/${data.icon}@2x.png`;
     divIcon.appendChild(icon);
     let condition=document.createElement("p");
+    condition.classList.add("condition");
     condition.textContent=data.condition;
     divIcon.appendChild(condition);
 
